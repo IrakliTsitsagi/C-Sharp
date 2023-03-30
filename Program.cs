@@ -1,0 +1,22 @@
+﻿namespace floatingPointNumbers
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            float f_no = 0.0f;
+            double d_no = 0.0d;
+            decimal m_no = 0.0m;
+
+            f_no = 9 / 3f;
+            d_no = 1 / 3d;
+            m_no = 1 / 3m;
+
+            // place holder qvia amas {0} <- es sadac weria iq svavs mnishvnelobas
+            Console.WriteLine("float no is {0} ade {1} ade aajvi",f_no, d_no);
+            Console.WriteLine("double no is {0}", d_no);
+            Console.WriteLine($"decimal no is {m_no} gaigee?");  // esec place holderis temaa
+
+        }
+    }
+}
