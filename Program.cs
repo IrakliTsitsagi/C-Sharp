@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace StringManipulationPart1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string movieName = "   lorD of the RIngs";
+            //indexes
+            Console.WriteLine(movieName[8]);
+
+            //trim  (zedmet speisebs ashorebs tavshi)
+            Console.WriteLine(movieName.Trim());
+
+            //uppercase
+            Console.WriteLine(movieName.ToUpper().Trim());
+
+            //lowercase
+            Console.WriteLine(movieName.ToLower().Trim());
+
+            //length
+            Console.WriteLine(movieName.Length);
+            Console.WriteLine(movieName.Trim().Length);
+
+            //replace
+            Console.WriteLine(movieName.Replace('o', 'O'));
+        }
+    }
+}
