@@ -1,0 +1,18 @@
+﻿namespace RandomNumbers
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Random rand = new Random();
+            int x = 0;
+
+            x = rand.Next(1, 7);
+            Console.WriteLine("dice " + x);
+
+            double y = 0;
+            y = rand.NextDouble() * 1; // anu 1 is farglebshi. rasac miuwer imis farglebshi
+            Console.WriteLine("random double number is " + y); // dasmrgvalebac shemidzlia math.round (y,1)
+        }
+    }
+}
